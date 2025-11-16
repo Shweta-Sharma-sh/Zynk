@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Infynite | Connect & Discuss</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="connect.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo-mark">∞</span>
+        <span class="brand-name">Infynite</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="topics.html" class="nav-link">Topics</a>
+        <a href="connect.html" class="nav-link active">Connect</a>
+        <a href="profile.html" class="nav-link">Profile</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-primary">Sign in</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <h1>Connect & Share Ideas</h1>
+        <p class="muted">Join global conversations. Suggest solutions. Discuss current events and issues shaping our world.</p>
+      </div>
+    </section>
+
+    <!-- SUGGESTION FORM -->
+    <section class="container section connect-form-section">
+      <h2>Post Your Suggestion</h2>
+      <form class="suggest-form" action="#" method="post" onsubmit="return false;">
+        <label for="topic">Select Topic</label>
+        <select id="topic" name="topic">
+          <option>Education</option>
+          <option>Sports</option>
+          <option>Geopolitics</option>
+          <option>Business</option>
+          <option>Technology</option>
+          <option>Science</option>
+          <option>Global Issues</option>
+        </select>
+
+        <label for="idea">Your Idea or Suggestion</label>
+        <textarea id="idea" name="idea" rows="4" placeholder="Write your suggestion or opinion..."></textarea>
+
+        <input class="btn btn-primary" type="submit" value="Post">
+      </form>
+    </section>
+
+    <!-- DISCUSSION FEED -->
+    <section class="container section discussion-section">
+      <h2>Recent Discussions</h2>
+      <div class="discussion-feed">
+
+        <article class="post-card">
+          <div class="post-header">
+            <img src="doc1.avif" alt="User" class="avatar">
+            <div>
+              <h4>Dr. Kiran Sharma</h4>
+              <p class="muted">Topic: Education · 2h ago</p>
+            </div>
+          </div>
+          <p class="post-text">How can we make education systems more resilient to digital divides? Open to collaboration on hybrid models for rural regions.</p>
+          <div class="post-actions">
+            <button class="btn-small">👍 Like</button>
+            <button class="btn-small">💬 Comment</button>
+            <button class="btn-small">🔗 Share</button>
+          </div>
+
+          <div class="comments">
+            <p><strong>Ravi Patel:</strong> That’s an important question! Low-cost devices could bridge the gap.</p>
+            <p><strong>Lina Xu:</strong> Also, more teacher training for digital pedagogy is key.</p>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-header">
+            <img src="global forum.jpg" alt="User" class="avatar">
+            <div>
+              <h4>Global Tech Forum</h4>
+              <p class="muted">Topic: Technology · 5h ago</p>
+            </div>
+          </div>
+          <p class="post-text">Can decentralized AI research prevent monopoly in global innovation?</p>
+          <div class="post-actions">
+            <button class="btn-small">👍 Like</button>
+            <button class="btn-small">💬 Comment</button>
+            <button class="btn-small">🔗 Share</button>
+          </div>
+
+          <div class="comments">
+            <p><strong>Elena Garcia:</strong> Yes, open-source collaboration could democratize AI development.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONNECT SIDEBAR -->
+    <section class="container section connect-sidebar">
+      <h2>Top Contributors</h2>
+      <ul class="contributors">
+        <li><strong>Amrita Dev</strong> — Education</li>
+        <li><strong>Marc Dupont</strong> — Geopolitics</li>
+        <li><strong>TechX Lab</strong> — Technology</li>
+        <li><strong>Sofia Bennett</strong> — Science</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="logo-mark">∞</span> <span class="brand-name">Infynite</span></a>
+        <p class="muted">Connect. Comment. Collaborate.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: #0b3d91;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* PRIVACY POLICY SECTION */
+.privacy-container {
+    max-width: 950px;
+    margin: 50px auto;
+    background: black;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.privacy-container h1 {
+    color: #0b3d91;
+    font-size: 34px;
+}
+
+.updated {
+    margin-top: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+.privacy-container h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #0b3d91;
+}
+
+.privacy-container p,
+.privacy-container li {
+    margin-top: 12px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+.footer-text {
+    margin-top: 35px;
+    font-style: italic;
+    color: #555;
+}
+
+/* FOOTER */
+footer {
+    background: #0b3d91;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}

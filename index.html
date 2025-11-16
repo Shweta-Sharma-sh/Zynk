@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Infynite — Connect. Discuss. Solve.</title>
+
+  <!-- Optional: swap or edit font -->
+  <link href="index.css" rel="stylesheet">
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo-mark">∞</span>
+        <span class="brand-name">Infynite</span>
+        
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="topics.html" class="nav-link">Topics</a>
+        <a href="connect.html" class="nav-link">Connect</a>
+        <a href="profile.html" class="nav-link">Profile</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-primary">Sign in</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Infynite — where global ideas meet.</h1>
+          <p>Read news across Education, Sports, Geopolitics, Business, Technology, Science and global issues. Connect with people worldwide, share suggestions, and comment on current events.</p>
+          <div class="hero-cta">
+            <a class="btn btn-cta" href="topics.html">Explore Topics</a>
+            <a class="btn btn-outline" href="connect.html">Join Conversations</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-meta">Trending</div>
+          <h3>Will AI reshape global education by 2030?</h3>
+          <p class="muted">By Editorial · 2h</p>
+          <p class="card-excerpt">Experts and contributors from around the world weigh in — read perspectives and add your voice.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOP CATEGORIES / NEWS FEED -->
+    <section class="container section feed-section">
+      <div class="section-head">
+        <h2>Latest across topics</h2>
+        <p class="muted">Curated and community-sourced updates</p>
+      </div>
+
+      <div class="grid">
+        <!-- FEATURED ARTICLE -->
+        <article class="news-card featured">
+          <img src="education.jpg" alt="Education" />
+          <div class="card-content">
+            <div class="tags">Education · Analysis</div>
+            <h3>Open-source curricula help remote learners in 18 countries</h3>
+            <p class="muted">By Amrita · 3h</p>
+            <p>Community-driven curriculum projects are scaling in low-connectivity zones. Discussion highlights practical implementation tips and funding models.</p>
+            <div class="card-actions">
+              <a class="link-btn" href="article.html">Read</a>
+              <a class="link-btn" href="connect.html">Discuss</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- SMALL CARDS -->
+        <article class="news-card">
+          <img src="business.avif" alt="Business" />
+          <div class="card-content">
+            <div class="tags">Business · Markets</div>
+            <h4>Emerging markets attract climate-tech startups</h4>
+            <p class="muted">By Rizwan · 1d</p>
+            <div class="card-actions">
+              <a class="link-btn" href="article.html">Read</a>
+              <a class="link-btn" href="connect.html">Comment</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="istockphoto-2036497889-612x612.jpg" alt="Technology" />
+          <div class="card-content">
+            <div class="tags">Tech · Research</div>
+            <h4>New low-power chips for edge AI</h4>
+            <p class="muted">By Lina · 5h</p>
+            <div class="card-actions">
+              <a class="link-btn" href="article.html">Read</a>
+              <a class="link-btn" href="connect.html">Share Insight</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="science.webp" alt="Science" />
+          <div class="card-content">
+            <div class="tags">Science · Discovery</div>
+            <h4>Sea-level datasets revised: what coastal cities must plan</h4>
+            <p class="muted">By Global Desk · 6h</p>
+            <div class="card-actions">
+              <a class="link-btn" href="article.html">Read</a>
+              <a class="link-btn" href="connect.html">Propose Solution</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUICK CONNECT / SUGGESTIONS -->
+    <section class="container section connect-section">
+      <div class="connect-grid">
+        <div class="connect-card">
+          <h3>Share a suggestion</h3>
+          <p class="muted">Suggest solutions or post short ideas to be discussed by the community.</p>
+
+          <form class="suggest-form" action="#" method="post" onsubmit="return false;">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option>Education</option>
+              <option>Sports</option>
+              <option>Geopolitics</option>
+              <option>Business</option>
+              <option>Technology</option>
+              <option>Science</option>
+              <option>Global Issues</option>
+            </select>
+
+            <label for="idea">Your suggestion</label>
+            <textarea id="idea" name="idea" rows="4" placeholder="Write a short suggestion or question..."></textarea>
+
+            <div class="form-row">
+              <input class="btn btn-primary" type="submit" value="Post Suggestion">
+              <a class="link-btn" href="connect.html">More Conversations</a>
+            </div>
+          </form>
+        </div>
+
+        <aside class="who-to-follow">
+          <h4>Top contributors</h4>
+          <ul>
+            <li><strong>Dr. Kiran Sharma</strong><span class="muted"> · Education</span> <button class="btn-small">Follow</button></li>
+            <li><strong>Marc Dupont</strong><span class="muted"> · Geopolitics</span> <button class="btn-small">Follow</button></li>
+            <li><strong>TechX Lab</strong><span class="muted"> · Technology</span> <button class="btn-small">Follow</button></li>
+          </ul>
+
+          <h4 class="mt">Popular tags</h4>
+          <div class="tags-cloud">
+            <a class="tag">#AI</a>
+            <a class="tag">#EducationForAll</a>
+            <a class="tag">#ClimateAction</a>
+            <a class="tag">#GlobalMarkets</a>
+            <a class="tag">#SportsPolicy</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="logo-mark">∞</span> <span class="brand-name">Infynite</span></a>
+        <p class="muted">Connect. Comment. Collaborate.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+
+      <div class="footer-social">
+        <p class="muted">Made with ♥ for thoughtful discussion</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional: small inline script only for demo (no external libs) -->
+  <script>
+    // Simple demo: add active class to nav links based on URL
+    (function () {
+      const links = document.querySelectorAll('.main-nav .nav-link');
+      links.forEach(l => {
+        if (location.pathname.endsWith(l.getAttribute('href'))) {
+          l.classList.add('active');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
+
+
+
+

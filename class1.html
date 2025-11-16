@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 600px;
+            height: 600px;
+            background-color: blue;
+        }
+        @media screen and (min-width: 600px) and (max-width: 1200px){
+            div{
+                background-color: rgb(102, 110, 77);
+            }
+            ul{
+                display: flex;
+                justify-content: end;
+                list-style-type: none;
+                text-decoration: none;
+            }
+        }
+        @media screen and (max-width: 599px){
+            ul{
+                flex-direction: flex;
+                flex-direction: column;
+
+            
+        }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+        </ul>
+    </div>
+</body>
+</html>
