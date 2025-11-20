@@ -4,7 +4,6 @@
   --muted: #9aa4b2;
   --accent: #00aaff;
   --accent-2: #7c3aed;
-  --radius: 12px;
   --max-width: 1000px;
   font-family: "Inter", system-ui;
   color-scheme: dark;
@@ -13,18 +12,18 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  background: linear-gradient(180deg, var(--bg), #071225 80%);
+  background: linear-gradient(var(--bg), #071225 80%);
   color: #e7eef8;
 }
 
-/* Containers */
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 24px;
 }
 
-/* Header */
+
 .site-header {
   position: sticky;
   top: 0;
@@ -88,7 +87,7 @@ body {
   cursor: pointer;
 }
 
-/* Hero */
+
 .hero {
   text-align: center;
   padding: 40px 0 20px;
@@ -101,7 +100,7 @@ body {
   color: var(--muted);
 }
 
-/* Form Section */
+
 .connect-form-section {
   background: var(--card);
   padding: 24px;
@@ -136,7 +135,7 @@ body {
   margin-top: 14px;
 }
 
-/* Discussion Section */
+
 .discussion-section h2 {
   margin-bottom: 16px;
 }
@@ -180,7 +179,7 @@ body {
   color: var(--muted);
 }
 
-/* Sidebar */
+
 .connect-sidebar {
   margin-top: 40px;
 }
@@ -198,7 +197,7 @@ body {
   color: var(--muted);
 }
 
-/* Footer */
+
 .site-footer {
   border-top: 1px solid rgba(255,255,255,0.03);
   margin-top: 40px;
@@ -218,7 +217,7 @@ body {
 }
 .footer-links a:hover { color: #fff; }
 
-/* Responsive */
+
 @media (max-width: 640px) {
   .main-nav { display: none; }
   .hero h1 { font-size: 24px; }

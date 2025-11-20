@@ -13,7 +13,7 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  background: linear-gradient(180deg, var(--bg), #071225 80%);
+  background: linear-gradient(var(--bg), #071225 );
   color: #e7eef8;
 }
 
@@ -70,7 +70,7 @@ body {
   cursor: pointer;
 }
 .btn-primary {
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  background: linear-gradient(var(--accent), var(--accent-2));
   color: #061123;
 }
 .btn-small {
@@ -82,7 +82,7 @@ body {
   cursor: pointer;
 }
 
-/* Profile Page Layout */
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -120,7 +120,7 @@ body {
   color: var(--muted);
 }
 
-/* Posts Section */
+
 .recent-posts {
   margin-top: 40px;
 }
@@ -155,7 +155,7 @@ body {
   gap: 10px;
 }
 
-/* Footer */
+
 .site-footer {
   border-top: 1px solid rgba(255,255,255,0.03);
   margin-top: 40px;
@@ -175,7 +175,7 @@ body {
 }
 .footer-links a:hover { color: #fff; }
 
-/* Responsive */
+
 @media (max-width: 700px) {
   .profile-header {
     flex-direction: column;

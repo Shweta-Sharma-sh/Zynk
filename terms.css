@@ -1,4 +1,4 @@
-/* GENERAL RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     color: white;
 }
 
-/* HEADER */
+
 header {
     background: #0b3d91;
     color: white;
@@ -39,7 +39,7 @@ nav a:hover {
     color: #ffd700;
 }
 
-/* TERMS CONTENT */
+
 .terms-container {
     max-width: 900px;
     margin: 40px auto;
@@ -84,7 +84,7 @@ ul {
     color: #666;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 15px;

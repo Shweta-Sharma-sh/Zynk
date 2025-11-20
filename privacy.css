@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-/* HEADER */
+
 header {
     background: #0b3d91;
     color: white;
@@ -38,7 +38,6 @@ nav a:hover {
     color: #ffd700;
 }
 
-/* PRIVACY POLICY SECTION */
 .privacy-container {
     max-width: 950px;
     margin: 50px auto;
@@ -82,7 +81,7 @@ ul {
     color: #555;
 }
 
-/* FOOTER */
+
 footer {
     background: #0b3d91;
     padding: 15px;

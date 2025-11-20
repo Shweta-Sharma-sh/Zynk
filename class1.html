@@ -6,38 +6,30 @@
     <title>Document</title>
     <style>
         div{
-            width: 600px;
-            height: 600px;
+            width: 500px;
+            height: 500px;
             background-color: blue;
+            /* transition: transform 30s; */
+            animation: spin 4s linear infinite;
         }
-        @media screen and (min-width: 600px) and (max-width: 1200px){
-            div{
-                background-color: rgb(102, 110, 77);
+        @keyframes spin{
+            0%{
+                background-color: brown;
             }
-            ul{
-                display: flex;
-                justify-content: end;
-                list-style-type: none;
-                text-decoration: none;
+            50%{
+                background-color: yellow;
+            }
+            100%{
+                background-color: cadetblue;
             }
         }
-        @media screen and (max-width: 599px){
-            ul{
-                flex-direction: flex;
-                flex-direction: column;
-
+        /* div:hover{
+            transform: rotate(180deg);
             
-        }
-        }
+        } */
     </style>
 </head>
 <body>
-    <div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Login</a></li>
-            <li><a href="">Register</a></li>
-        </ul>
-    </div>
+    <div></div>
 </body>
 </html>
